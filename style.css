@@ -1,0 +1,46 @@
+body{
+    background-color: blue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* color: burlywood; */
+
+}
+
+.main-heading h1{
+    margin-bottom: 20px;
+    /* font-size: large; */
+    /* font-size: large; */
+color: #fdfdf6;
+font-size: 5vh;
+font-weight: bold;
+font-style: oblique;
+}
+
+button{
+    display: inline-block;
+    background-color: rgb(245, 245, 127);
+    color: rgb(15, 14, 14);
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    border-radius: 10px;
+    transition: 400ms;
+    text-decoration: none;
+    padding: 10px;
+    z-index: 100000;
+}
+button:hover{
+transform: scale(1.5);
+background-color: rgb(252, 252, 252);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/* background-position: center; */
+}
+
+img{
+    height: 40vh;
+}
